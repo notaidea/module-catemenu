@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Notaidea_Catemenu::catemenu_add"
+             title="自定义菜单"
+             module="Notaidea_Catemenu"
+             sortOrder="100"
+             action="/admin"
+             resource="Notaidea_Catemenu::res_catemenu_add" />
+    </menu>
+</config>
