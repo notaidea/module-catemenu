@@ -1,0 +1,21 @@
+{
+  "name": "notaidea/module-catemenu",
+  "description": "A notaidea Module",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~7.3.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Notaidea\\Catemenu\\": ""
+    }
+  }
+}
