@@ -14,4 +14,9 @@
             </argument>
         </arguments>
     </type>
+
+    <!-- Plugin -->
+    <type name="Magento\Theme\Block\Html\Topmenu">
+        <plugin name="catalogTopmenu2" type="Notaidea\Catemenu\Plugin\Topmenu" />
+    </type>
 </config>
