@@ -5,7 +5,7 @@
              title="自定义菜单"
              module="Notaidea_Catemenu"
              sortOrder="100"
-             action="/admin"
+             action="notaidea_catemenu/Catemenu/Index"
              resource="Notaidea_Catemenu::res_catemenu_add" />
     </menu>
 </config>

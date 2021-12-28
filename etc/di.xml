@@ -1,0 +1,17 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <virtualType name="Notaidea\Catemenu\Model\ResourceModel\Catemenu\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">my_catemenu</argument>
+            <argument name="resourceModel" xsi:type="string">Notaidea\Catemenu\Model\ResourceModel\Catemenu</argument>
+        </arguments>
+    </virtualType>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <!-- name = dataSource-name -->
+                <!-- val = virtualType - name -->
+                <item name="notaidea_catemenu_catemenu_listing_data_source" xsi:type="string">Notaidea\Catemenu\Model\ResourceModel\Catemenu\Grid\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
